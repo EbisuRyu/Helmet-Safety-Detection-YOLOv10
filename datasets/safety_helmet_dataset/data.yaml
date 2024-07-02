@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: dataperson
+  project: safety-helmet-dataset-uvh1t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataperson/safety-helmet-dataset-uvh1t/dataset/1
