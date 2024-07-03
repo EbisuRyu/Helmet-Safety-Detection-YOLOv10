@@ -23,11 +23,24 @@
 cd Helmet-Safety-Detection-YOLOv10
 </code></pre>
 
+<h2>Installation</h2>
+
+<p><code>conda</code> virtual environment is recommended.</p>
+<pre><code>conda create -n yolov10 python=3.9
+conda activate yolov10
+</code></pre>
+
 <h2>Requirements</h2>
 
-<p>Install the required packages using:</p>
+<p>Install the required packages of YOLOv10 using:</p>
 
-<pre><code>pip install -r requirements.txt
+<pre><code>cd yolov10
+pip install -r requirements.txt
+pip install -e .
+</code></pre>
+and then install the required packages of this project:
+<pre><code>cd ..
+pip install -r requirements.txt
 </code></pre>
 
 <h2>Training Instructions</h2>
