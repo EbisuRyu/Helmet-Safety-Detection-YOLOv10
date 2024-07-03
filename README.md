@@ -1,4 +1,3 @@
-
 <h1>Helmet Safety Detection using YOLOv10</h1>
 
 <h2>Introduction</h2>
@@ -18,14 +17,11 @@
     </div>
 </div>
 
-
 <h2>Clone the Repository</h2>
 <p>Clone the repository and navigate into the project directory:</p>
 <pre><code>git clone https://github.com/EbisuRyu/Helmet-Safety-Detection-YOLOv10.git
 cd Helmet-Safety-Detection-YOLOv10
 </code></pre>
-
-
 
 <h2>Requirements</h2>
 
@@ -116,6 +112,17 @@ cd Helmet-Safety-Detection-YOLOv10
 
 <p>Replace <code>path/to/your/...</code> with the actual paths relevant to your setup.</p>
 
-<h2>7. Acknowledgements</h2>
+<h2>Running Streamlit App</h2>
+
+<p>To run the Streamlit app, execute the following command:</p>
+
+<pre><code>streamlit run streamlit_app.py
+</code></pre>
+
+<p>This will start the Streamlit server and open the app in your default web browser. Ensure that you have the necessary dependencies installed as specified in the <code>requirements.txt</code> file.</p>
+
+<p>Or you can go to my app deployed on Streamlit using this link: <a href="https://helmet-safety-detection-yolov10.streamlit.app">Deployed Streamlit App</a></p>
+
+<h2>Acknowledgements</h2>
 
 <p>This project utilizes the YOLOv10 implementation from the <a href="https://github.com/ultralytics/yolov5">YOLOv10 repository</a> by Ultralytics. Special thanks to the contributors and maintainers of that repository.</p>
