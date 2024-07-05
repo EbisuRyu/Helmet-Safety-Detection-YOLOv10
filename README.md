@@ -1,6 +1,4 @@
-<h1>Helmet Safety Detection using YOLOv10</h1>
-
-<h2>Introduction</h2>
+<h1>🚧 Helmet Safety Detection using YOLOv10 🛡️</h1>
 
 <p>Welcome to our Helmet Safety Detection project, powered by YOLOv10, a cutting-edge object detection algorithm. Our mission is to enhance workplace safety by accurately identifying the presence of safety helmets in various environments. This project focuses on detecting whether workers are wearing helmets in real-time scenarios, offering a crucial tool for ensuring occupational safety standards are met.</p>
 
@@ -19,20 +17,23 @@
   </tr>
 </table>
 
-<h2>Clone the Repository</h2>
+<h2>⚙️ Installation and Requirements</h2>
+
+<p><strong>Clone the Repository 📁</strong></p>
+
 <p>Clone the repository and navigate into the project directory:</p>
 <pre><code>git clone https://github.com/EbisuRyu/Helmet-Safety-Detection-YOLOv10.git
 cd Helmet-Safety-Detection-YOLOv10
 </code></pre>
 
-<h2>Installation</h2>
+<p><strong>Installation 💻</strong></p>
 
 <p><code>conda</code> virtual environment is recommended.</p>
 <pre><code>conda create -n yolov10 python=3.9
 conda activate yolov10
 </code></pre>
 
-<h2>Requirements</h2>
+<p><strong>Requirements 📦</strong></p>
 
 <p>Install the required packages of YOLOv10 using:</p>
 
@@ -45,9 +46,9 @@ and then install the required packages of this project:
 pip install -r requirements.txt
 </code></pre>
 
-<h2>Training Instructions</h2>
+<h2>🏋️‍♂️ Training Instructions</h2>
 
-<p><strong>Configuring Training Parameters</strong></p>
+<p><strong>Configuring Training Parameters ⚙️</strong></p>
 
 <p>Modify the training parameters in <code>train.py</code> to suit your specific dataset and training requirements:</p>
 
@@ -65,7 +66,7 @@ pip install -r requirements.txt
     <li><code>-p, --project:</code> Project directory to save training results.</li>
 </ul>
 
-<p><strong>Running the Training</strong></p>
+<p><strong>Running the Training 🚀</strong></p>
 
 <p>Execute the following command to start training:</p>
 
@@ -74,9 +75,9 @@ pip install -r requirements.txt
 
 <p>Replace <code>path/to/your/...</code> with the actual paths relevant to your setup.</p>
 
-<h2>Validation Instructions</h2>
+<h2>🔍 Validation Instructions</h2>
 
-<p><strong>Configuring Validation Parameters</strong></p>
+<p><strong>Configuring Validation Parameters ⚙️</strong></p>
 
 <p>Modify the validation parameters in <code>validate.py</code> to suit your specific dataset and validation requirements.</p>
 
@@ -92,7 +93,7 @@ pip install -r requirements.txt
     <li><code>-t, --split:</code> Data split to use for validation (e.g., test, val).</li>
 </ul>
 
-<p><strong>Running the Validation</strong></p>
+<p><strong>Running the Validation 🏃‍♂️</strong></p>
 
 <p>Execute the following command to start validation:</p>
 
@@ -101,9 +102,9 @@ pip install -r requirements.txt
 
 <p>Replace <code>path/to/your/...</code> with the actual paths relevant to your setup.</p>
 
-<h2>Inference Instructions</h2>
+<h2>🔍 Inference Instructions</h2>
 
-<p><strong>Configuring Inference Parameters</strong></p>
+<p><strong>Configuring Inference Parameters ⚙️</strong></p>
 
 <p>Modify the inference parameters in <code>inference.py</code> to specify the model and input/output paths:</p>
 
@@ -118,7 +119,7 @@ pip install -r requirements.txt
     <li><code>-o, --output_path:</code> Path to save the output image after inference.</li>
 </ul>
 
-<p><strong>Running Inference</strong></p>
+<p><strong>Running Inference 🏃‍♀️</strong></p>
 
 <p>Execute the following command to perform inference on an image:</p>
 
@@ -127,7 +128,7 @@ pip install -r requirements.txt
 
 <p>Replace <code>path/to/your/...</code> with the actual paths relevant to your setup.</p>
 
-<h2>Running Streamlit App</h2>
+<h2>🌐 Running Streamlit App</h2>
 
 <p>To run the Streamlit app, execute the following command:</p>
 
@@ -138,10 +139,10 @@ pip install -r requirements.txt
 
 <p>Or you can go to my app deployed on Streamlit using this link: <a href="https://helmet-safety-detection-yolov10.streamlit.app">Deployed Streamlit App</a></p>
 <div>
-    <p align="center"><img src="./extra/streamlit.png" alt="Streamlit App Interface" width="1000"/>
+    <p align="center"><img src="./extra/streamlit.png" alt="Streamlit App Interface" width="500"/>
     <p align="center"><em>Streamlit App Interface</em>
 </div>
 
-<h2>Acknowledgements</h2>
+<h2>🙏 Acknowledgements</h2>
 
 <p>This project utilizes the YOLOv10 implementation from the <a href="https://github.com/ultralytics/yolov5">YOLOv10 repository</a> by Ultralytics. Special thanks to the contributors and maintainers of that repository.</p>
