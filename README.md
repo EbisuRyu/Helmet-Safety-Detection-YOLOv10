@@ -6,16 +6,18 @@
 
 <p><strong>Example:</strong></p>
 
-<div style="display: flex; justify-content: center;">
-    <div style="flex: 10%; padding: 5px;">
-        <p align="center"><img src="./images/demo/demo.jpg" alt="Input Image" width="200"/></p>
-        <p align="center"><strong>Input</strong></p>
-    </div>
-    <div style="flex: 10%; padding: 5px;">
-        <p align="center"><img src="./images/results/demo.jpg" alt="Result Image" width="200"/></p>
-        <p align="center"><strong>Result</strong></p>
-    </div>
-</div>
+<table align="center">
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="./images/demo/demo.jpg" alt="Input Image" width="300"/>
+      <p><strong>Input</strong></p>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="./images/results/demo.jpg" alt="Result Image" width="300"/>
+      <p><strong>Result</strong></p>
+    </td>
+  </tr>
+</table>
 
 <h2>Clone the Repository</h2>
 <p>Clone the repository and navigate into the project directory:</p>
